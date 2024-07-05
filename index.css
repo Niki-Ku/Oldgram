@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+/* typography */
+
+.fs-12{
+    font-size: 12px;
+}
+
+.normal-fw{
+    font-weight: 400;
+}
+
+/* layout */
+
+main,
+header{
+    width: 375px;
+    margin: 0 auto;
+}
+
+.profile-photo{
+    width: 34px;
+    border-radius: 50%;
+}
+
+.container{
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.post-header-div{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post-header-p{
+    display: inline-block;
+}
+
+.post-header-p p{
+    margin: 0 7px;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.like-comment-section{
+    padding: 21px 0 16px 10px;
+}
+
+.like-comment-dm-icons{
+    height: 22px;
+    width: 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    height: 100%;
+}
+
+.icon:last-child{
+    height: 90%;
+    align-self: end;
+}
+
+.icon:hover,
+.icon:focus{
+    cursor: pointer;
+    opacity: 0.8;
+}
